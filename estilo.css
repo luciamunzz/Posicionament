@@ -1,0 +1,132 @@
+body 
+{
+    background-image: url('imagenes/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+#contenedor-imagenes 
+{
+    border: 2px solid rgb(173, 143, 143);
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+}
+    
+img
+{
+    height: 150px;
+    width: auto;
+    background: transparent;
+    position: absolute;
+}
+    
+#car1-imagen 
+{
+    top: 0; 
+    left: 0;
+}
+    
+#car2-imagen 
+{
+    top: 0;
+    right: 0;
+}
+    
+#car3-imagen 
+{
+    bottom: 0;
+    left: 0;
+}
+    
+#car4-imagen 
+{
+    bottom: 0;
+    right: 0;
+}
+    
+#contenedor-titulo 
+{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(162, 162, 128);
+}
+    
+#contenedor-titulo h1  
+{
+    margin: 0;
+}
+
+#car1-imagen,
+#car2-imagen,
+#car3-imagen,
+#car4-imagen,
+#car5-imagen
+{
+    width: 320px; 
+    padding: 5px;
+    height: auto; 
+}
+
+#car3 p
+{
+    color: aqua;
+}
+
+.car2text
+{
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    margin-left: 80%;
+    bottom: 67%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.car1text
+{
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    bottom: 67%;
+    margin-left: 3%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.car3text
+{
+    position: absolute;
+    bottom: 0;
+    left: 9%; 
+    bottom: 29%;
+    margin-left: 3%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.car4text
+{
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    margin-left: 80%;
+    bottom: 29%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10%;
+    padding: 10px;
+}
